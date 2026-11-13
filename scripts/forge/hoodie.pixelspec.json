@@ -1,0 +1,263 @@
+{
+  "schema": "codeart2d.pixelspec.v1",
+  "name": "hoodie",
+  "canvas": [16, 32],
+  "anchor_px": [8, 31],
+  "palette": {
+    "k": "#1d1524",
+    "h": "#6b4fa0",
+    "H": "#8e72c4",
+    "d": "#4a3573",
+    "D": "#2c1f47",
+    "s": "#f0c09a",
+    "S": "#cf9772",
+    "n": "#7a4a35",
+    "w": "#ffffff",
+    "e": "#1d1524",
+    "t": "#e0a83c",
+    "T": "#b57f2a",
+    "c": "#fff1c9",
+    "m": "#6e4a14",
+    "p": "#3b4a66",
+    "P": "#2a3549",
+    "o": "#e8e8f0",
+    "O": "#8a8aa0",
+    "b": "#b8433f",
+    "B": "#f4ead2"
+  },
+  "variants": {
+    "amber": {},
+    "mint": {"t": "#4fb38a", "T": "#35806a", "m": "#1c4a3c", "h": "#3a3a52", "H": "#55557a", "d": "#28283a", "D": "#16161f"},
+    "rose": {"t": "#d9627a", "T": "#a84560", "m": "#5c2233", "h": "#e8d27a", "H": "#f6e7a6", "d": "#b89e4a", "D": "#5e4d1e"}
+  },
+  "outline": {
+    "mode": "selout",
+    "color": "k",
+    "map": {"h": "D", "H": "D", "d": "D", "s": "n", "S": "n", "t": "m", "T": "m", "c": "m"}
+  },
+  "poses": {
+    "head_front": [
+      "...hhhhhh...",
+      ".hhHHHHHHhh.",
+      "hhHHHHHHHHhh",
+      "hHHHHhhHHHHh",
+      "hHHhhhhhhHHh",
+      "hhhhhhhhhhhh",
+      "hhdhhhhhhdhh",
+      "hhsdhhhhdshh",
+      "hdswessewsdh",
+      "hdswessewsdh",
+      ".dssssssssd.",
+      "..SssssssS..",
+      "...SSSSSS..."
+    ],
+    "head_back": [
+      "...hhhhhh...",
+      ".hhHHHHHHhh.",
+      "hhHHHHHHHHhh",
+      "hHHHHHHHHHHh",
+      "hHHhHHHHhHHh",
+      "hhhhhhhhhhhh",
+      "hhhhhhhhhhhh",
+      "hhhhhhhhhhhh",
+      "hdhhhhhhhhdh",
+      "hddhhhhhhddh",
+      ".dddhhhhddd.",
+      "..dddddddd..",
+      "...SSSSSS..."
+    ],
+    "head_side": [
+      "..hhhhhh....",
+      ".hHHHHHHhh..",
+      "hHHHHHHHHhh.",
+      "hHHHHHhhhhhh",
+      "hHHHhhhhhhhh",
+      "hHHhhhhhhhhh",
+      "hHhhhhhhhdss",
+      "hhhhhhdsssss",
+      "hhhhhdsswes.",
+      "hdhhhdsswes.",
+      ".dhhhdssssss",
+      "..dddSsssss.",
+      "....SSSSSS.."
+    ],
+    "body_front": [
+      "..tttttttt..",
+      ".TttcttcttT.",
+      "TTttcttcttTT",
+      "TTttttttttTT",
+      "TTtTTTTTTtTT",
+      "ss.tTTTTt.ss",
+      "...tttttt...",
+      "...pppppp..."
+    ],
+    "body_back": [
+      "..tttttttt..",
+      ".TttttttttT.",
+      "TTtttTTtttTT",
+      "TTttTTTTttTT",
+      "TTtttTTtttTT",
+      "ss.tttttt.ss",
+      "...tttttt...",
+      "...pppppp..."
+    ],
+    "body_side": [
+      "....ttttt...",
+      "...ttttttt..",
+      "...tttTttt..",
+      "...ttTTttc..",
+      "...ttTTttt..",
+      "...ttssttt..",
+      "....ttttt...",
+      "....ppppp..."
+    ],
+    "body_side_fore": [
+      "....ttttt...",
+      "...ttttttt..",
+      "...ttttTTt..",
+      "...tttttTTt.",
+      "...ttttttTss",
+      "...ttttttt..",
+      "....ttttt...",
+      "....ppppp..."
+    ],
+    "body_side_back": [
+      "....ttttt...",
+      "...ttttttt..",
+      "...tTTtttt..",
+      "..tTTttttt..",
+      ".ssTtttttt..",
+      "...ttttttt..",
+      "....ttttt...",
+      "....ppppp..."
+    ],
+    "legs_front": [
+      "...pppppp...",
+      "...ppPPpp...",
+      "...pp..pp...",
+      "...oo..oo...",
+      "..ooo..ooo.."
+    ],
+    "legs_front_step": [
+      "...pppppp...",
+      "...ppPPpp...",
+      "...oo..pp...",
+      "..ooo..oo...",
+      ".......ooo.."
+    ],
+    "legs_side": [
+      "....ppppp...",
+      "....ppPpp...",
+      "....ppPp....",
+      "....ooo.....",
+      "....ooooo..."
+    ],
+    "legs_side_a": [
+      "....ppppp...",
+      "...PP..ppp..",
+      "..PP....pp..",
+      "..OO....ooo.",
+      ".OO.....ooo."
+    ],
+    "legs_side_b": [
+      "....ppppp...",
+      "...pp..PPP..",
+      "..pp....PP..",
+      "..oo....OOO.",
+      ".oo.....OOO."
+    ],
+    "legs_side_sit": [
+      "....pppppp..",
+      "....ppppppp.",
+      ".......Ppp..",
+      ".......ooo..",
+      ".......oooo."
+    ],
+    "body_front_type": [
+      "..tttttttt..",
+      ".TttcttcttT.",
+      "TTttcttcttTT",
+      "ssttttttttTT",
+      "...tTTTTt.ss",
+      "...tttttt..."
+    ],
+    "body_back_type": [
+      "..tttttttt..",
+      ".TttTTTTttT.",
+      "TTtttTTtttTT",
+      "ssttttttttTT",
+      "...tttttt.ss",
+      "...tttttt..."
+    ],
+    "body_front_read": [
+      "..tttttttt..",
+      ".TttcttcttT.",
+      "TTbbbbbbbbTT",
+      "TsbBBbbBBbsT",
+      ".sbBBbbBBbs.",
+      "...bbbbbb..."
+    ],
+    "body_back_read": [
+      "..tttttttt..",
+      ".TttTTTTttT.",
+      "TTtttTTtttTT",
+      ".TttttttttT.",
+      "...tttttt...",
+      "...tttttt..."
+    ],
+    "body_side_type_a": [
+      "....ttttt...",
+      "...ttttttt..",
+      "...tttTTtt..",
+      "...ttttTTTss",
+      "...ttttttt..",
+      "....ttttt..."
+    ],
+    "body_side_type_b": [
+      "....ttttt...",
+      "...ttttttt..",
+      "...tttTttt..",
+      "...ttttTTt..",
+      "...tttttTTss",
+      "....ttttt..."
+    ],
+    "body_side_read": [
+      "....ttttt...",
+      "...ttttttt..",
+      "...tttTTtbb.",
+      "...ttttTTsbB",
+      "...tttttt.bB",
+      "....ttttt..."
+    ]
+  },
+  "layers": [
+    {"name": "legs", "z": 0, "origin": [2, 25], "rows": "legs_front"},
+    {"name": "body", "z": 1, "origin": [2, 17], "rows": "body_front"},
+    {"name": "head", "z": 2, "origin": [2, 4], "rows": "head_front"}
+  ],
+  "frames": [
+    {"name": "down-walk1", "layers": {"head": {"dy": 1}, "body": {"dy": 1}, "legs": {"rows": "legs_front_step"}}},
+    {"name": "down-walk2"},
+    {"name": "down-walk3", "layers": {"head": {"dy": 1}, "body": {"dy": 1}, "legs": {"rows": "legs_front_step", "mirror": true}}},
+    {"name": "down-type1", "layers": {"head": {"dy": 3}, "body": {"rows": "body_front_type", "dy": 3}, "legs": {"dy": 1}}},
+    {"name": "down-type2", "layers": {"head": {"dy": 3}, "body": {"rows": "body_front_type", "dy": 3, "mirror": true}, "legs": {"dy": 1}}},
+    {"name": "down-read1", "layers": {"head": {"dy": 3}, "body": {"rows": "body_front_read", "dy": 3}, "legs": {"dy": 1}}},
+    {"name": "down-read2", "layers": {"head": {"dy": 4}, "body": {"rows": "body_front_read", "dy": 3}, "legs": {"dy": 1}}},
+
+    {"name": "up-walk1", "layers": {"head": {"rows": "head_back", "dy": 1}, "body": {"rows": "body_back", "dy": 1}, "legs": {"rows": "legs_front_step"}}},
+    {"name": "up-walk2", "layers": {"head": {"rows": "head_back"}, "body": {"rows": "body_back"}}},
+    {"name": "up-walk3", "layers": {"head": {"rows": "head_back", "dy": 1}, "body": {"rows": "body_back", "dy": 1}, "legs": {"rows": "legs_front_step", "mirror": true}}},
+    {"name": "up-type1", "layers": {"head": {"rows": "head_back", "dy": 3}, "body": {"rows": "body_back_type", "dy": 3}, "legs": {"dy": 1}}},
+    {"name": "up-type2", "layers": {"head": {"rows": "head_back", "dy": 3}, "body": {"rows": "body_back_type", "dy": 3, "mirror": true}, "legs": {"dy": 1}}},
+    {"name": "up-read1", "layers": {"head": {"rows": "head_back", "dy": 3}, "body": {"rows": "body_back_read", "dy": 3}, "legs": {"dy": 1}}},
+    {"name": "up-read2", "layers": {"head": {"rows": "head_back", "dy": 4}, "body": {"rows": "body_back_read", "dy": 3}, "legs": {"dy": 1}}},
+
+    {"name": "right-walk1", "layers": {"head": {"rows": "head_side", "dy": 1}, "body": {"rows": "body_side_back", "dy": 1}, "legs": {"rows": "legs_side_a"}}},
+    {"name": "right-walk2", "layers": {"head": {"rows": "head_side"}, "body": {"rows": "body_side"}, "legs": {"rows": "legs_side"}}},
+    {"name": "right-walk3", "layers": {"head": {"rows": "head_side", "dy": 1}, "body": {"rows": "body_side_fore", "dy": 1}, "legs": {"rows": "legs_side_b"}}},
+    {"name": "right-type1", "layers": {"head": {"rows": "head_side", "dy": 3}, "body": {"rows": "body_side_type_a", "dy": 3}, "legs": {"rows": "legs_side_sit", "dy": 1}}},
+    {"name": "right-type2", "layers": {"head": {"rows": "head_side", "dy": 3}, "body": {"rows": "body_side_type_b", "dy": 3}, "legs": {"rows": "legs_side_sit", "dy": 1}}},
+    {"name": "right-read1", "layers": {"head": {"rows": "head_side", "dy": 3}, "body": {"rows": "body_side_read", "dy": 3}, "legs": {"rows": "legs_side_sit", "dy": 1}}},
+    {"name": "right-read2", "layers": {"head": {"rows": "head_side", "dy": 4}, "body": {"rows": "body_side_read", "dy": 3}, "legs": {"rows": "legs_side_sit", "dy": 1}}}
+  ]
+}
